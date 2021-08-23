@@ -1,11 +1,20 @@
 .topnav {
-  background: rgb(40, 40, 40);
+  background: ;
   /* height: 90px; */
   display: grid;
   grid-template-columns: repeat(5, auto);
   list-style: none;
   text-align: center;
   justify-content: end;
+}
+
+h1 {
+  font-family: 'Parisienne', cursive;
+  color: #f0940a;
+  font-size: 300%;
+  font-size: 40px;
+  /* font-size: xx-large; */
+  text-align: center;
 }
 
 /* Change the color of links on hover */

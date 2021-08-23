@@ -5,7 +5,7 @@ import Content from "./Content";
 class ShowControl extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {showing: "content"};
+    this.state = {showing: "home"};
   }
 
   render(){

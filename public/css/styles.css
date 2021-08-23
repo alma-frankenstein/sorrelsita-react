@@ -48,12 +48,13 @@ img.logo {
   margin-bottom: 4%;
 }
 
-h1 {
+/* h1 {
   font-family: 'Parisienne', cursive;
   color: #f0940a;
   font-size: 200%;
+  font-weight: bolder;
   text-align: justify;
-}
+} */
 
 h3, p {
   padding: 14px;
