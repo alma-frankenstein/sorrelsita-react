@@ -11,9 +11,9 @@ function App() {
   return (
     <React.Fragment>
       <h4>in the App.js file</h4>
-      <p>this's the Header component:</p>
-      <Header />
-      <Navigation />
+      {/* <p>this's the Header component:</p> */}
+      {/* <Header /> */}
+      {/* <Navigation /> */}
       <p>navbar:</p>
       <Navbar />
       

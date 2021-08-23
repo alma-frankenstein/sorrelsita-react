@@ -1,4 +1,21 @@
 .topnav {
-  background: lightcoral;
-  height: 90px;
+  background: rgb(40, 40, 40);
+  /* height: 90px; */
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #9b7c42;
+  color: white;
 }
