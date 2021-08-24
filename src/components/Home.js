@@ -8,38 +8,37 @@ import 'bootstrap/dist/css/bootstrap.css';
 function HomeContent(){
   return (
     <React.Fragment>
-        <script src="js/jquery-3.5.1.js"></script>
+        {/* <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <script src="js/bootstrap.js" type="text/javascript"></script>
-      {/* <p>xxxxHomeContentxxxx</p> */}
+  <script src="js/bootstrap.js" type="text/javascript"></script> */}
       <div class="homepageContent">
       <div class="row">
       <div class="col-6">
 
-      <div style={{ display: 'block', width: 700, padding: 30 }}>
-      <h4>React-Bootstrap Carousel Component</h4>
+      <div >
+      {/* <h4>React-Bootstrap Carousel Component</h4> */}
       <Carousel>
         <Carousel.Item interval={1500}>
           <img
-            className="d-block w-100"
+            className="d-block w-50"
 src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
             alt="Image One"
           />
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Label for first slide</h3>
             <p>Sample Text for Image One</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item interval={500}>
           <img
-            className="d-block w-100"
+            className="d-block w-50"
 src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
             alt="Image Two"
           />
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Label for second slide</h3>
             <p>Sample Text for Image Two</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
       </div>
