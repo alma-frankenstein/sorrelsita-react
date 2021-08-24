@@ -2,7 +2,6 @@ import '../../src/App.css';
 import React from 'react';
 import Content from "./Content";
 import HomeContent from "./Home";
-import ShowControl from "./ShowControl";
 import Navbar from "./Navbar/Navbar";
 
 function App() {
