@@ -1,8 +1,7 @@
 import React from "react";
 import { Nav } from "reactstrap";
 import MenuItems from "./MenuItems";
-// import "./Navbar.css";
-// import "../../../public/css/styles.css"
+import "./Navbar.css";
 
 class Navbar extends React.Component {
   render (){
@@ -16,26 +15,15 @@ class Navbar extends React.Component {
           {/* <img src= "./favicon.ico" alt="favicon"/> */}
           <img src= "./furgus.jpg" alt="furgus" height="50px"/>
 
-
           <div className="menu-icon">
-
           </div>
-            {/* <ul> */}
               {MenuItems.map((item, index) => {
                 return (
-                  // <li key={index}><a className={item.cName} href={item.url}>
-                  //     {item.label}
-                  //   </a>
-                  // </li>
                   <a key={index} className={item.cName} href={item.url}>
                   {item.label}
                 </a>
                 )
-
               })}
-              
-            {/* </ul> */}
-        {/* </nav> */}
         </div>
       </div>
     )

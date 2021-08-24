@@ -3,7 +3,10 @@ import React from "react";
 function HomeContent(){
   return (
     <React.Fragment>
-      <p>xxxxHomeContentxxxx</p>
+        {/* <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/bootstrap.js" type="text/javascript"></script>
+      <p>xxxxHomeContentxxxx</p> */}
       <div class="homepageContent">
       <div class="row">
       <div class="col-6">
@@ -39,13 +42,13 @@ function HomeContent(){
       </div>
   </div>
     <div>
-    {/* <script type="text/javascript">
+    {/* <script src="js/jquery-3.5.1.js" type="text/javascript">
       $(document).ready(function() {
         $('.carousel').carousel(
         'cycle',  
         )
-      });
-    </script> */}
+      }); */}
+    {/* </script> */}
     </div>
       </div>
     </React.Fragment>
