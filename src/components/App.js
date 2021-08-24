@@ -11,7 +11,7 @@ function App() {
       <h4>in the App.js file</h4>
       <Navbar />
       
-      <ShowControl />
+      {/* <ShowControl /> */}
     </React.Fragment>
   );
 }
