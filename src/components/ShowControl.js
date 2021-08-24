@@ -1,6 +1,7 @@
 import React from "react";
 import HomeContent from "./Home";
 import Content from "./Content";
+import ContactInfo from "./Contact";
 
 class ShowControl extends React.Component {
   constructor(props) {
@@ -12,6 +13,8 @@ class ShowControl extends React.Component {
     let nowShowing = null;
     if (this.state.showing === "content") {
       nowShowing = <Content />
+    } else if (this.state.showing === "contact") {
+      nowShowing = <ContactInfo />
     } else {
       nowShowing = <HomeContent />
     }
