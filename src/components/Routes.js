@@ -10,7 +10,6 @@ import { Redirect } from 'react-router-dom';
 function Routes(){
   return(
     <div>
-      <Navbar />
       <Switch>
         <Route exact path="/home" component={HomeContent} />
         <Route exact path="/">

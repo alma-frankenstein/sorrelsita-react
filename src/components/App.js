@@ -10,8 +10,6 @@ function App() {
     <React.Fragment>
       <h4>in the App.js file</h4>
       <Navbar />
-      
-      {/* <ShowControl /> */}
     </React.Fragment>
   );
 }
