@@ -3,9 +3,9 @@ import HomeContent from "./Home";
 import Content from "./Content";
 import ContactInfo from "./Contact";
 import Navbar from "./Navbar/Navbar";
-import Route from 'react-router-dom';
-import Switch from 'react-router-dom';
-import Redirect from 'react-router-dom';
+import  { Route } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 
 function Routes(){
   return(
