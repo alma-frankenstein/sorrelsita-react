@@ -36,6 +36,7 @@ function HomeContent(){
             className="d-block w-50"
             src="img/IMG-3153.JPG"
             alt="Image Two"
+          />
         </Carousel.Item>
       </Carousel>
       </div>
@@ -43,14 +44,13 @@ function HomeContent(){
       </div>
 
  
-        // <div class="col-5">
-        //   <p>Sorrel is our very excellent friend. She makes spaces beautiful, and is generally a delightful
-        //     top-quality person. </p>
-        // </div>
-
-    <div>
+         <div class="col-5">
+           <p>Sorrel is our very excellent friend. She makes spaces beautiful, and is generally a delightful
+             top-quality person. </p>
+         </div>
 
     </div>
+
       </div>
     </React.Fragment>
   )
