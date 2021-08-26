@@ -15,7 +15,7 @@ function HomeContent(){
 
       <div >
       <Carousel>
-        <Carousel.Item interval={1500}>
+        <Carousel.Item interval={2000}>
           <img
             className="d-block w-50"
             src="img/IMG-3151.JPG"
@@ -23,7 +23,7 @@ function HomeContent(){
           />
         </Carousel.Item>
 
-        <Carousel.Item interval={500}>
+        <Carousel.Item interval={2000}>
           <img
             className="d-block w-50"
             src="img/IMG-3152.JPG"
@@ -31,7 +31,7 @@ function HomeContent(){
           />
         </Carousel.Item>
 
-        <Carousel.Item interval={500}>
+        <Carousel.Item interval={2000}>
           <img
             className="d-block w-50"
             src="img/IMG-3153.JPG"
