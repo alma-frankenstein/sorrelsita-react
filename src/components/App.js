@@ -1,13 +1,13 @@
 import '../../src/App.css';
 import React from 'react';
-import Content from "./Content";
-import HomeContent from "./Home";
+// import Content from "./Content";
+// import HomeContent from "./Home";
 import Navbar from "./Navbar/Navbar";
+import "../index.css";
 
 function App() {
   return (
     <React.Fragment>
-      <h4>in the App.js file</h4>
       <Navbar />
     </React.Fragment>
   );
