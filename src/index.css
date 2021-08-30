@@ -28,7 +28,7 @@ img.logo {
 }
 
 .header {
-  background-color: rgb(16, 16, 17);
+  background-color: rgb(16, 16, 17, .75);
   padding-top: 30px;
   padding-bottom: 15px;
   font-size: xx-large;
