@@ -1,15 +1,14 @@
 import React from "react";
-import { Nav } from "reactstrap";
+// import { Nav } from "reactstrap";
 import "../../index.css";
 
 class Navbar extends React.Component {
   render (){
     return(
       <div class="header">
-          <h1>Welcome</h1>
+          <h1 style={{fontSize: 70}}>Welcome</h1>
 
           <div class="topnav">
-          {/* <img src= "./favicon.ico" alt="favicon"/> */}
           <img src= "./furgus.jpg" alt="furgus" height="50px"/>
 
           <div className="menu-icon">
@@ -24,3 +23,6 @@ class Navbar extends React.Component {
 }
 
 export default Navbar;
+
+
+// Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
